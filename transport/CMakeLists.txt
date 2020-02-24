@@ -12,6 +12,7 @@ include_directories(${transport_root})
 option(BUILD_TRANSPORT_EXAMPLES "Build transport examples" ON)
 
 aux_source_directory(${transport_root}/channel channel_SRCS)
+aux_source_directory(${transport_root}/reactor reactor_SRCS)
 aux_source_directory(${transport_root}/client client_SRCS)
 aux_source_directory(${transport_root}/codec codec_SRCS)
 aux_source_directory(${transport_root}/security security_SRCS)
